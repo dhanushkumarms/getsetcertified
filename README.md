@@ -20,7 +20,7 @@ Welcome to **CountriQ**, an interactive and engaging quiz platform designed to t
 To run this project locally:
 
 1. Clone this repo:  
-   `git clone https://github.com/yourusername/countriQ.git`
+   `git clone https://github.com/dhanushkumarms/countriQ.git`
    
 2. Navigate to the project directory:  
    `cd countriQ`
@@ -34,7 +34,7 @@ Feel free to fork this project and submit pull requests to improve its functiona
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### **Contact**
-For any queries or suggestions, feel free to reach out to [Your Name or Email].
+For any queries or suggestions, feel free to reach out to dhanushkumarms12gmail.com
 
 ---
 
