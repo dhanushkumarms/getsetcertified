@@ -36,6 +36,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### **Contact**
 For any queries or suggestions, feel free to reach out to dhanushkumarms12gmail.com
 
----
 
-*Feel free to adjust the sections as needed!*
