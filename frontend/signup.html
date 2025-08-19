@@ -1,0 +1,51 @@
+<!-- signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="gradient-bg">
+        <div class="gradients-container">
+            <div class="g1"></div>
+            <div class="g2"></div>
+            <div class="g3"></div>
+            <div class="g4"></div>
+            <div class="g5"></div>
+        </div>
+        <div class="interactive"></div>
+    </div>
+
+    <div class="auth-container">
+        <h2>Signup</h2>
+        <input type="text" id="signupName" placeholder="Full Name" />
+        <input type="email" id="signupEmail" placeholder="Email" />
+        <input type="password" id="signupPassword" placeholder="Password" />
+        <input type="password" id="signupConfirm" placeholder="Confirm Password" />
+        <button id="signupBtn">Signup</button>
+        <p class="link-text">Already have an account? <a href="index.html">Login</a></p>
+        <button id="googleLogin" class="google-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 488 512">
+                <path fill="#EA4335"
+                    d="M488 261.8c0-17.3-1.5-34-4.3-50.2H249v95.1h134.5c-5.8 31-23 57.3-49 74.9v62.1h79.4c46.5-42.9 73.1-106.1 73.1-181.9z" />
+                <path fill="#34A853"
+                    d="M249 492c66.2 0 121.7-21.8 162.2-59.3l-79.4-62.1c-22 14.7-50 23.4-82.8 23.4-63.7 0-117.7-43-137-100.7h-81.1v63.3C74.3 429.6 154.4 492 249 492z" />
+                <path fill="#4A90E2"
+                    d="M112 293.3c-5.5-16.4-8.7-33.8-8.7-51.3s3.2-34.9 8.7-51.3v-63.3H30.9C11.1 159.8 0 202.3 0 245.6s11.1 85.8 30.9 118.2l81.1-63.3z" />
+                <path fill="#FBBC05"
+                    d="M249 98.4c35.9 0 68.1 12.3 93.5 36.5l70-70C368.7 29.6 313.2 0 249 0 154.4 0 74.3 62.4 30.9 127.3l81.1 63.3c19.2-57.7 73.2-100.7 137-100.7z" />
+            </svg>
+            Continue with Google
+        </button>
+    </div>
+
+    <script type="module" src="./js/signup.js"></script>
+</body>
+
+</html>
