@@ -5,8 +5,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Signup</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <title>GSC - Signup</title>
+    <link rel="icon" type="image/png" href="./gsc.png" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -22,15 +23,25 @@
         <div class="interactive"></div>
     </div>
 
-    <div class="auth-container">
-        <h2>Signup</h2>
-        <input type="text" id="signupName" placeholder="Full Name" />
-        <input type="email" id="signupEmail" placeholder="Email" />
-        <input type="password" id="signupPassword" placeholder="Password" />
-        <input type="password" id="signupConfirm" placeholder="Confirm Password" />
-        <button id="signupBtn">Signup</button>
-        <p class="link-text">Already have an account? <a href="index.html">Login</a></p>
-        <button id="googleLogin" class="google-btn">
+    <div class="auth-container max-w-md mx-auto p-4 bg-white rounded-lg shadow-md">
+        <!-- Banner -->
+        <div class="w-full mb-4">
+            <img src="gscbanner.png" alt="Banner" class="w-full h-auto rounded-lg object-cover" />
+        </div>
+
+        <h2 class="text-xl font-semibold mb-2">Signup</h2>
+        <input type="email" id="loginEmail" placeholder="Email"
+            class="w-full p-2 mb-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
+        <div class="password-container">
+            <input type="password" id="loginPassword" placeholder="Password"
+                class="w-full p-2 mb-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
+        </div>
+        <button id="loginBtn" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Login</button>
+        <p class="link-text mt-3 text-sm text-center">Already have an account?
+            <a href="index.html" class="text-blue-600 font-semibold">Login</a>
+        </p>
+
+        <button id="googleLogin" class="google-btn w-full mt-4 flex items-center justify-center gap-2 border py-2 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 488 512">
                 <path fill="#EA4335"
                     d="M488 261.8c0-17.3-1.5-34-4.3-50.2H249v95.1h134.5c-5.8 31-23 57.3-49 74.9v62.1h79.4c46.5-42.9 73.1-106.1 73.1-181.9z" />
