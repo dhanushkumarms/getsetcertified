@@ -34,6 +34,5 @@ git clone https://github.com/your-username/getsetcertified.git
 cd getsetcertified
 python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-cp .env.example .env
 python run.py
 # http://127.0.0.1:5000

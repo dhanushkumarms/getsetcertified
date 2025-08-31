@@ -7,8 +7,7 @@
 <form method="post" enctype="multipart/form-data" class="space-y-10">
   <div class="grid md:grid-cols-4 gap-6">
     {% for i in range(1,9) %}
-      {% include "components/template-card.html" with 
-        context %}
+      {% include "components/template-card.html" with context %}
       {% set src = "template" ~ i ~ ".png" %}
       {% set value = i %}
       {% set label = "Template " ~ i %}
@@ -35,19 +34,9 @@
       </div>
     </div>
 
-    <!-- Bulk -->
-    <div class="p-6 rounded-2xl border border-slate-800 bg-slate-900">
-      <h3 class="font-semibold text-lg mb-4">Bulk via CSV</h3>
-      <p class="text-sm text-slate-400 mb-3">CSV columns (first 5 used): name, description, title, subtitle, signer</p>
-      <input type="file" name="file" accept=".csv" required class="input">
-      <button class="btn-primary mt-4">Generate</button>
-    </div>
+    <!-- Bulk (include from component) -->
+    {% include "components/form-bulk.html" %}
   </div>
 </form>
-
-<style>
-  .input{ @apply w-full px-3 py-2 rounded-lg bg-slate-800 text-slate-100 border border-slate-700; }
-  .btn-primary{ @apply px-4 py-2 rounded-lg bg-green-500/90 text-black font-semibold hover:bg-green-400; }
-</style>
 
 {% endblock %}
