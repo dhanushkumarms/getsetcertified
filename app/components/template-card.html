@@ -1,0 +1,7 @@
+<div class="rounded-xl border border-slate-800 overflow-hidden bg-slate-900">
+  <img src="{{ url_for('static', filename=src) }}" class="w-full" alt="{{ label }}">
+  <label class="flex items-center gap-2 p-3">
+    <input type="radio" name="template_index" value="{{ value }}" class="accent-green-500" {% if checked %}checked{% endif %}>
+    <span class="text-sm text-slate-300">{{ label }}</span>
+  </label>
+</div>

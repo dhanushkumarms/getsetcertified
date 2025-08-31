@@ -1,0 +1,18 @@
+*.pdf
+*.zip
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Flask uploads/output
+uploads/
+certificates/*.pdf
+certificates/certificates.zip
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
